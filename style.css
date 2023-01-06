@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FF5959;
+    border: 0;
+    padding: 16px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #d03f3f;
+}
+
+/* header banner css */
+.header-banner {
+    background-image: linear-gradient(#00000040, #00000040), linear-gradient(#00000040, #00000040), url(./images/donation15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 174px 307px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 42px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 135px;
+}
+
+/* donat limit styles */
+.donat-limit-header {
+    text-align: center;
+}
+
+.donat-limit-title {
+    margin-bottom: 20px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donat-limit-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding: 0px 390px;
+    margin-bottom: 50px;
+}
+
+
+.donat-limit-taka {
+    display: flex;
+    padding: 0 410px;
+    color: #707070;
+    gap: 22px;
+}
+
+.donat-limit-full h3 {
+    background-color: #FAFAFA;
+    width: 135px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 130px;
+    margin-bottom: 60px;
+}
+.donat-limit-full h3:hover{
+    background-color:  #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    box-sizing: border-box;
+    line-height: 127px;
+}
+.donat-button{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.other-taka{
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+}
+hr {
+    margin-top: 9.5px;
+    margin-bottom: 30px;
+    width: 765px;
+    margin-left: 412px;
+    color: #B3B3B3;
+}
