@@ -18,7 +18,8 @@ a {
     font-weight: 550;
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #d03f3f;
 }
 
@@ -87,27 +88,209 @@ a {
     line-height: 130px;
     margin-bottom: 60px;
 }
-.donat-limit-full h3:hover{
-    background-color:  #FFEEEE;
+
+.donat-limit-full h3:hover {
+    background-color: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
     color: #FF5959;
     box-sizing: border-box;
     line-height: 127px;
 }
-.donat-button{
+
+.donat-button {
     text-align: center;
     margin-bottom: 130px;
 }
-.other-taka{
+
+.other-taka {
     color: #B3B3B3;
     font-weight: 400;
     font-size: 18px;
 }
+
 hr {
     margin-top: 9.5px;
     margin-bottom: 30px;
     width: 765px;
     margin-left: 412px;
     color: #B3B3B3;
+}
+
+/* Donat plan styles */
+
+.dontat-plan-title {
+    text-align: center;
+
+}
+
+.dontat-plan-title-head {
+
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.dontat-plan-title-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 0 415px;
+}
+
+.donat-plan-details {
+    display: flex;
+    gap: 24px;
+    padding: 0 157px;
+}
+
+.donat-plan-details-food {
+    padding: 25px;
+    margin-bottom: 180px;
+}
+
+.donat-plan-details-food img {
+
+    margin-top: 30px;
+    margin-bottom: 31px;
+
+}
+
+.donat-plan-details-food-head {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.donat-plan-details-food-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    font-family: 'Poppins';
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.donat-plan-details-food:nth-child(1) {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.donat-plan-details-food:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.donat-plan-details-food:nth-child(3) {
+    background: #FFF4DC;
+    border-radius: 5px;
+}
+
+/* types of donation */
+.donat-plan-types {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 300px;
+    margin-bottom: 100px;
+}
+
+.donat-plan-types-right img {
+    width: 470px;
+    height: 477px;
+    border-radius: 5px;
+}
+.donat-plan-types-left {
+    padding-right: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.donat-plan-types-left-head{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donat-plan-types-left-text{
+    color: #707070;
+    font-size: 18px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+/* second types donat styles */
+.donat-plan-types-second-left img {
+    width: 470px;
+    height: 477px;
+    border-radius: 5px;
+}
+.donat-plan-types-second-right {
+    padding: 35px 125px;
+}
+.donat-plan-types-left-second-head{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donat-plan-types-left-second-text{
+    color: #707070;
+    font-size: 18px;
+    margin-right: -50px;
+    margin-bottom: 30px;
+}
+/* Donat updetes styles */
+.donat-updetes-part {
+    text-align: center;
+}
+.donat-updetes-title-head {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donat-updetes-title-text {
+    color: #707070;
+    padding: 0 445px;
+    margin-bottom: 50px;
+}
+.donat-updetes-form{
+    
+        width: 809px;
+        background: #FFF4D6;
+        margin-left: 180px;
+        padding: 75px 188px;
+        margin-bottom: 130px;
+        border-radius: 5px;
+}
+input[type="email"] {
+    border: 0;
+    width: 290px;
+    height: 55px;
+    padding: 5px 18px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -5px;
+}
+.btn-primarys {
+    color: white;
+    background-color: #FF5959;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 65.5px;
+    width: 150px;
+}
+/* footer styles */
+footer {
+    padding: 45px 0;
+    background: #0B0D17;
+    text-align: center;
+}
+.footer-head {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.footer-text {
+    color: #D9DBE1;
+    font-size: 14px;
 }
